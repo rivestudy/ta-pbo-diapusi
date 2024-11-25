@@ -1,9 +1,15 @@
-import { LuRefreshCw } from "react-icons/lu";
+import { MdRefresh } from "react-icons/md";
 import { MdOutlineFileUpload } from "react-icons/md";
+import Header from "../components/header";
+import Footer from "../components/footer";
 
 const InputPage = () => {
     return (
+        <div>
+            <Header/>
+
         <div className="space-y-4 w-[80%] mx-auto">
+            
             <h1 className="mb-7 font-semibold text-4xl text-center pt-9 font-inter">FORM INPUT DATA ARSIP</h1>
             <div className="grid grid-cols-2 gap-4 md:grid-cols-4">
                 <div className="col-span-2">
@@ -115,14 +121,16 @@ const InputPage = () => {
                         placeholder="Keterangan Lainnya"
                     />
                     <div className="grid grid-cols-2 gap-2">
-                        <button className=" flex items-center w-full p-3 font-bold text-gray-400 border border-gray-400 rounded-md text-lg text-pretty" name="reset"><LuRefreshCw className="mx-2"></LuRefreshCw>Reset Data</button>
-                        <button className=" flex items-center w-full p-3 font-bold text-white bg-gray-900 border rounded-md text-lg text-pretty" name="reset"><MdOutlineFileUpload className="mx-2"></MdOutlineFileUpload>Submit Data</button>
+                        <button className=" flex items-center w-full p-2 font-bold text-gray-400 border border-gray-400 rounded-md text-md justify-center" name="reset"><MdRefresh className="text-md mr-2"></MdRefresh>Reset Data</button>
+                        <button className=" flex items-center w-full p-2 font-bold text-white bg-[#4d5d53] border-[#4d5d53] rounded-md text-md justify-center" name="reset"><MdOutlineFileUpload className="text-md mr-2"></MdOutlineFileUpload>Submit Data</button>
                     </div>
                 </div>
             </div>
 
 
 
+        </div>
+        <Footer/>
         </div>
     );
 };

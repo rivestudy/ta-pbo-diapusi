@@ -1,10 +1,13 @@
 import bgimage from "../images/bgdark.jpg";
 import { CgAddR } from "react-icons/cg";
 import { IoDocumentOutline } from "react-icons/io5";
+import Header from "../components/header";
+import Footer from "../components/footer";
 
 const HomePage = () => {
   return (
     <div id="homepage">
+      <Header/>
       <div
         className="text-black text-center justify-center flex-1 h-[60vh] bg-gray-400 relative "
         id="herosection"
@@ -64,6 +67,7 @@ const HomePage = () => {
           </p>
         </div>
       </div>
+        <Footer/>
     </div>
   );
 };

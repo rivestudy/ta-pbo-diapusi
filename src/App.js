@@ -12,7 +12,7 @@ import EditPage from './pages/editpage.js';
 function App() {
   return (
     <Router>
-      <div className="h-fit">
+      <div className="h-fit font-inter">
         <Routes>
           <Route path="/" element={<WelcomePage />} />
           <Route path="/login" element={<LoginPage />} />
