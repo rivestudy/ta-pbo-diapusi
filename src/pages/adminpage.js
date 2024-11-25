@@ -1,6 +1,11 @@
+import Header from "../components/header";
+import Footer from "../components/footer";
 const AdminPage = () => {
     return (
-        <div id="wrapper" className="min-h-screen p-6 bg-gray-200">
+        <div >
+             <Header/>
+            <div id="wrapper" className="min-h-screen p-6 bg-gray-200">
+
             <div className="container mx-auto">
     
 
@@ -47,6 +52,9 @@ const AdminPage = () => {
                     </table>
                 </div>
             </div>
+            </div>
+           
+            <Footer/>
         </div>
     );
 }

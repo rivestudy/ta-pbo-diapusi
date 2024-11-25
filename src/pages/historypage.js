@@ -1,7 +1,11 @@
+import Header from "../components/header";
+import Footer from "../components/footer";
+
 const HistoryPage = () => {
     return (
-        <div id="wrapper" className="min-h-screen p-6 bg-gray-200">
-            <div className="container mx-auto">
+        <div >
+            <Header/>
+            <div id="wrapper" className="min-h-screen p-6 bg-gray-200"> <div className="container mx-auto">
                 
                 
                 <h1 className="mb-6 text-3xl font-semibold text-center">Daftar Data Arsip</h1>
@@ -61,6 +65,8 @@ const HistoryPage = () => {
                     </table>
                 </div>
             </div>
+             </div>
+             <Footer/>
         </div>
     );
 }

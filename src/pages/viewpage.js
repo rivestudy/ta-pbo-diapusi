@@ -1,8 +1,13 @@
+import Header from "../components/header";
+import Footer from "../components/footer";
+
 
 const ViewPage = () => {
   return (
-    <div id="wrapper" className="min-h-screen p-6 bg-gray-200 font-inter">
-      <div className="container mx-auto">
+    <div >
+      <Header/>
+      <div id="wrapper" className="min-h-screen p-6 bg-gray-200 font-inter">
+         <div className="container mx-auto">
         <h1 className="mb-6 text-3xl font-semibold text-center">
           DAFTAR DATA ARSIP
         </h1>
@@ -63,6 +68,9 @@ const ViewPage = () => {
           </table>
         </div>
       </div>
+      </div>
+     
+      <Footer/>
     </div>
   );
 };
