@@ -1,13 +1,17 @@
+import { LuRefreshCw } from "react-icons/lu";
+import { MdOutlineFileUpload } from "react-icons/md";
+
 const InputPage = () => {
     return (
         <div className="space-y-4 w-[80%] mx-auto">
-            <h1 className="mb-4 text-2xl font-semibold">Form Input Data Arsip</h1>
-            <div className="grid grid-cols-1 gap-4 md:grid-cols-4">
+            <h1 className="mb-7 font-semibold text-4xl text-center pt-9 font-inter">FORM INPUT DATA ARSIP</h1>
+            <div className="grid grid-cols-2 gap-4 md:grid-cols-4">
                 <div className="col-span-2">
                     <label className="block mb-2 text-xl font-bold" htmlFor="lembaga">Nama Lembaga</label>
+                  
                     <input
                         name="lembaga"
-                        className="w-full p-3 border border-gray-400 rounded-lg"
+                        className="w-full p-3 border border-gray-400 rounded-lg bg-gray-300"
                         type="text"
                         placeholder="Nama Lembaga"
                     />
@@ -35,7 +39,7 @@ const InputPage = () => {
                 <label className="block mb-2 text-xl font-bold" htmlFor="informasi">Informasi Arsip</label>
                 <textarea
                     name="informasi"
-                    className="w-full h-32 p-3 border border-gray-400 rounded-lg"
+                    className="w-full min-h-32 p-3 border border-gray-400 rounded-lg"
                     placeholder="Uraian Informasi Arsip"
                 />
             </div>
@@ -107,12 +111,12 @@ const InputPage = () => {
                     <label className="block mb-2 text-xl font-bold" htmlFor="lainnya">Lainnya</label>
                     <textarea
                         name="lainnya"
-                        className="w-full h-20 p-3 mb-2 border border-gray-400 rounded-lg"
+                        className="w-full min-h-20 p-3 mb-2 border border-gray-400 rounded-lg"
                         placeholder="Keterangan Lainnya"
                     />
                     <div className="grid grid-cols-2 gap-2">
-                        <button className="w-full p-3 font-bold text-gray-400 border border-gray-400 rounded-md" name="reset">Reset Data</button>
-                        <button className="w-full p-3 font-bold text-white bg-gray-900 border rounded-md" name="reset">Submit Data</button>
+                        <button className=" flex items-center w-full p-3 font-bold text-gray-400 border border-gray-400 rounded-md text-lg text-pretty" name="reset"><LuRefreshCw className="mx-2"></LuRefreshCw>Reset Data</button>
+                        <button className=" flex items-center w-full p-3 font-bold text-white bg-gray-900 border rounded-md text-lg text-pretty" name="reset"><MdOutlineFileUpload className="mx-2"></MdOutlineFileUpload>Submit Data</button>
                     </div>
                 </div>
             </div>

@@ -2,7 +2,7 @@ const AdminPage = () => {
     return (
         <div id="wrapper" className="min-h-screen p-6 bg-gray-200">
             <div className="container mx-auto">
-                
+    
 
                 <h1 className="mb-6 text-3xl font-semibold text-center">Daftar Divisi</h1>
 
