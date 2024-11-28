@@ -8,6 +8,7 @@ import InputPage from './pages/inputpage.js';
 import AdminPage from './pages/adminpage.js';
 import React from 'react';
 import EditPage from './pages/editpage.js';
+import HistoryPage from './pages/historypage.js';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
           <Route path="/input" element={<InputPage />} />
           <Route path="/edit" element={<EditPage />} />
           <Route path="/admin" element={<AdminPage />} />
+          <Route path="/history" element={<HistoryPage />} />
         </Routes>
       </div>
     </Router>

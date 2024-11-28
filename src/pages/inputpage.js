@@ -8,7 +8,7 @@ const InputPage = () => {
         <div>
             <Header/>
 
-        <div className="space-y-4 w-[80%] mx-auto">
+        <div className="space-y-4 w-[80%] h-[66.9vh] mx-auto">
             
             <h1 className="mb-7 font-semibold text-4xl text-center pt-9 font-inter">FORM INPUT DATA ARSIP</h1>
             <div className="grid grid-cols-2 gap-4 md:grid-cols-4">

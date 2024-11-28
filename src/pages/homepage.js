@@ -9,7 +9,7 @@ const HomePage = () => {
     <div id="homepage">
       <Header/>
       <div
-        className="text-black text-center justify-center flex-1 h-[60vh] bg-gray-400 relative "
+        className="text-black text-center justify-center flex-1 h-[60vh] bg-gray-400 relative"
         id="herosection"
         style={{
           backgroundImage: `url(${bgimage})`,
@@ -46,7 +46,7 @@ const HomePage = () => {
         <h1 className="font-inter text-4xl text-center font-bold my-8">
           Tentang
         </h1>
-        <div className="grid grid-cols-3 text-justify gap-7 text-xl">
+        <div className="grid grid-cols-3 text-justify gap-7 text-xl mb-32 ">
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam ad
             earum impedit officia recusandae. Non voluptates similique laborum

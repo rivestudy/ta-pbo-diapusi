@@ -8,7 +8,7 @@ const HistoryPage = () => {
             <div id="wrapper" className="min-h-screen p-6 bg-gray-200"> <div className="container mx-auto">
                 
                 
-                <h1 className="mb-6 text-3xl font-semibold text-center">Daftar Data Arsip</h1>
+                <h1 className="mb-6 text-3xl font-semibold text-center">RIWAYAT INPUT DATA ARSIP</h1>
 
                 <div className="flex items-center justify-between mb-6">
                     <select className="w-[30%] p-2 border rounded-md bg-white shadow-sm">
@@ -38,29 +38,29 @@ const HistoryPage = () => {
                                 <th className="px-4 py-3 border-b">Keterangan</th>
                             </tr>
                         </thead>
-                        <tbody>
-                            {/* Table Row Example */}
-                            <tr className="hover:bg-gray-50">
-                                <td className="px-4 py-3 border-b">1</td>
-                                <td className="px-4 py-3 border-b">A-123</td>
-                                <td className="px-4 py-3 border-b">Arsip Keuangan</td>
-                                <td className="px-4 py-3 border-b">2010 - 2020</td>
-                                <td className="px-4 py-3 border-b">50</td>
-                                <td className="px-4 py-3 border-b">10 Tahun</td>
-                                <td className="px-4 py-3 border-b">15 Tahun</td>
-                                <td className="px-4 py-3 border-b">Dokumen keuangan penting</td>
-                            </tr>
+                        <tbody >
+                                <tr className="hover:bg-gray-50">
+                                    <td className="px-4 py-3 border-b">1</td>
+                                    <td className="px-4 py-3 border-b">A-123</td>
+                                    <td className="px-4 py-3 border-b">Arsip Keuangan</td>
+                                    <td className="px-4 py-3 border-b">2010 - 2020</td>
+                                    <td className="px-4 py-3 border-b">50</td>
+                                    <td className="px-4 py-3 border-b">10 Tahun</td>
+                                    <td className="px-4 py-3 border-b">15 Tahun</td>
+                                    <td className="px-4 py-3 border-b">Dokumen keuangan penting</td>
+                                </tr>
+                                <tr className="hover:bg-gray-50">
+                                    <td className="px-4 py-3 border-b">2</td>
+                                    <td className="px-4 py-3 border-b">B-456</td>
+                                    <td className="px-4 py-3 border-b">Arsip Personal</td>
+                                    <td className="px-4 py-3 border-b">2015 - 2025</td>
+                                    <td className="px-4 py-3 border-b">100</td>
+                                    <td className="px-4 py-3 border-b">15 Tahun</td>
+                                    <td className="px-4 py-3 border-b">20 Tahun</td>
+                                    <td className="px-4 py-3 border-b">Dokumen pribadi pegawai</td>
+                                </tr>
+                            
                             {/* Add more rows as needed */}
-                            <tr className="hover:bg-gray-50">
-                                <td className="px-4 py-3 border-b">2</td>
-                                <td className="px-4 py-3 border-b">B-456</td>
-                                <td className="px-4 py-3 border-b">Arsip Personal</td>
-                                <td className="px-4 py-3 border-b">2015 - 2025</td>
-                                <td className="px-4 py-3 border-b">100</td>
-                                <td className="px-4 py-3 border-b">15 Tahun</td>
-                                <td className="px-4 py-3 border-b">20 Tahun</td>
-                                <td className="px-4 py-3 border-b">Dokumen pribadi pegawai</td>
-                            </tr>
                         </tbody>
                     </table>
                 </div>

@@ -5,7 +5,7 @@ const EditPage = () => {
   return (
     <div>
       <Header />
-      <div className="space-y-4 w-[80%] mx-auto">
+      <div className="space-y-4 w-[80%] h-[62vh] mt-24 mx-auto">
         <h1 className="mb-4 text-2xl font-semibold">Form Edit Data Arsip</h1>
         <div className="grid grid-cols-1 gap-4 md:grid-cols-4">
           <div className="col-span-2">

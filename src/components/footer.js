@@ -6,7 +6,7 @@ import logo from "../images/logo.png";
 
 const Footer = () => {
   return (
-<footer className="grid grid-cols-3 text-justify gap-7 text-xl p-16 mt-16 bg-[#1d1d1d]">
+<footer className="grid grid-cols-3 text-justify gap-7 text-xl px-16 py-16 bg-[#1d1d1d]">
 <div className="col-span-1 flex justify-center">
 <img src={logo} className="size-[5vh] mr-2" alt="logo"></img>
 <h3 className="text-3xl font-medium text-[#d0f0bf]">ARCHIVER</h3>
