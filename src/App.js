@@ -4,6 +4,7 @@ import WelcomePage from './pages/welcome.js';
 import LoginPage from './pages/loginpage.js';
 import HomePage from './pages/homepage.js';
 import ViewPage from './pages/viewpage.js';
+import ReviewPage from './pages/reviewpage.js';
 import InputPage from './pages/inputpage.js';
 import AdminPage from './pages/adminpage.js';
 import React from 'react';
@@ -19,6 +20,7 @@ function App() {
           <Route path="/login" element={<LoginPage />} />
           <Route path="/home" element={<HomePage />} />
           <Route path="/view" element={<ViewPage />} />
+          <Route path="/review" element={<ReviewPage />} />
           <Route path="/input" element={<InputPage />} />
           <Route path="/edit" element={<EditPage />} />
           <Route path="/admin" element={<AdminPage />} />
